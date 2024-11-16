@@ -1,7 +1,11 @@
 # Smart contract
 
 Staking Contract: Manages participant stakes.
+```
+0xb6DC7501A81C5Ff56583058d3Eb67e04E72e6826
+```
 Reward Distribution Contract: Handles reward calculations and distribution.
+
 VRF Integration Contract: Manages randomness and Chainlink requests.
 
 Usage:
