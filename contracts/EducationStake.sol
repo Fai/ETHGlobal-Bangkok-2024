@@ -77,7 +77,5 @@ contract EducationStake is VRFConsumerBase {
 
         emit RewardsDistributed(totalReward, rewardPerParticipant);
     }
-
-    // Fallback function to receive Ether
     receive() external payable {}
 }
