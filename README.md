@@ -61,14 +61,14 @@ We built our project using a combination of cutting-edge Web3 technologies and f
 * The backbone of our platform, deployed on the Ethereum or L2 network for scalability and low gas fees.
 * Smart contracts handle staking, prize pool management, deadlines, and reward distribution with complete transparency.
 
-2. Frontend + Backend (Next.js) - Implementing
-User interface for learners to explore courses, stake funds, and track progress., handling project submissions and storing metadata (like submission deadlines), connect to smart contract
+2. Frontend + Backend (Next.js) - Implemented
+* User interface for learners to explore courses, stake funds, and track progress., handling project submissions and storing metadata (like submission deadlines), connect to smart contract
 
 3. Decentralized Identity (Web3Auth) - Plan
-Users log in with their wallets using Web3Auth for secure, seamless onboarding.
+* Users log in with their wallets using Web3Auth for secure, seamless onboarding.
 
-4. Reward Mechanism (Chainlink) - Implementing
-Used Chainlink VRF (Verifiable Random Function) to ensure fair distribution of bonus rewards from the prize pool, particularly for multi-winner projects.
+4. Reward Mechanism (Chainlink) - Implemented
+* Used Chainlink VRF (Verifiable Random Function) to ensure fair distribution of bonus rewards from the prize pool, particularly for multi-winner projects.
 
 5. Gamification Logic - Plan
 * Deadlines and difficulty levels are encoded in the smart contracts, determining how much of the prize pool is allocated based on project difficulty.
