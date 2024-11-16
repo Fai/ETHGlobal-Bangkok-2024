@@ -40,9 +40,9 @@ Integrated The Graph to index blockchain data, enabling users to track their pro
 - Peer Review Integration:
 Built a decentralized peer review mechanism where learners evaluate submissions via governance tokens, ensuring high-quality validation without relying on centralized authorities.
 
-Partner Technologies and Their Benefits
+Planned Partner Technologies and Their Benefits
 
-- Polygon: Provided scalability and low-cost transactions, ensuring a smooth user experience for staking and payouts.
+- Polygon: Provided scalability and low-cost transactions, ensuring a smooth user experience for staking and payouts. 
 - IPFS/Filecoin: Ensured secure and decentralized storage for project files.
 - Chainlink: Added fairness and reliability to reward distribution mechanics.
 - Web3Auth: Simplified wallet onboarding, making the platform accessible to non-crypto-savvy users.
@@ -57,22 +57,20 @@ Core Components
 
 We built our project using a combination of cutting-edge Web3 technologies and frameworks to create a seamless, decentralized education experience. Here's a breakdown of the tech stack and process:
 
-Core Components
-
-1. Smart Contracts (Solidity)
+1. Smart Contracts (Solidity) - Implemented
 * The backbone of our platform, deployed on the Ethereum or L2 network for scalability and low gas fees.
 * Smart contracts handle staking, prize pool management, deadlines, and reward distribution with complete transparency.
 
-2. Frontend + Backend (Next.js)
+2. Frontend + Backend (Next.js) - Implementing
 User interface for learners to explore courses, stake funds, and track progress., handling project submissions and storing metadata (like submission deadlines), connect to smart contract
 
-3. Decentralized Identity (Web3Auth)
+3. Decentralized Identity (Web3Auth) - Plan
 Users log in with their wallets using Web3Auth for secure, seamless onboarding.
 
-4. Reward Mechanism (Chainlink)
+4. Reward Mechanism (Chainlink) - Implementing
 Used Chainlink VRF (Verifiable Random Function) to ensure fair distribution of bonus rewards from the prize pool, particularly for multi-winner projects.
 
-5. Gamification Logic
+5. Gamification Logic - Plan
 * Deadlines and difficulty levels are encoded in the smart contracts, determining how much of the prize pool is allocated based on project difficulty.
 * Stake forfeits automatically upon failure, adding to the reward pool for winners and contributors.
 
