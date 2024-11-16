@@ -48,3 +48,47 @@ Partner Technologies and Their Benefits
 - Web3Auth: Simplified wallet onboarding, making the platform accessible to non-crypto-savvy users.
 
 By blending blockchain principles with gamification, we built a platform that’s not only functional but also enjoyable, motivating users to learn and succeed in a decentralized manner.
+
+## How it made
+
+We built our project using a combination of cutting-edge Web3 technologies and frameworks to create a seamless, decentralized education experience. Here's a breakdown of the tech stack and process:
+
+Core Components
+
+We built our project using a combination of cutting-edge Web3 technologies and frameworks to create a seamless, decentralized education experience. Here's a breakdown of the tech stack and process:
+
+Core Components
+
+1. Smart Contracts (Solidity)
+* The backbone of our platform, deployed on the Ethereum or L2 network for scalability and low gas fees.
+* Smart contracts handle staking, prize pool management, deadlines, and reward distribution with complete transparency.
+
+2. Frontend + Backend (Next.js)
+User interface for learners to explore courses, stake funds, and track progress., handling project submissions and storing metadata (like submission deadlines), connect to smart contract
+
+3. Decentralized Identity (Web3Auth)
+Users log in with their wallets using Web3Auth for secure, seamless onboarding.
+
+4. Reward Mechanism (Chainlink)
+Used Chainlink VRF (Verifiable Random Function) to ensure fair distribution of bonus rewards from the prize pool, particularly for multi-winner projects.
+
+5. Gamification Logic
+* Deadlines and difficulty levels are encoded in the smart contracts, determining how much of the prize pool is allocated based on project difficulty.
+* Stake forfeits automatically upon failure, adding to the reward pool for winners and contributors.
+
+By blending blockchain principles with gamification, we built a platform that’s not only functional but also enjoyable, motivating users to learn and succeed in a decentralized manner.
+
+## Installation and Usage
+
+```
+npm init -y
+npm install --save-dev hardhat
+npx hardhat init
+npm install --save-dev @nomiclabs/hardhat-ethers ethers chai
+npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle chai
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+npm install @chainlink/contracts
+npm install --save-dev typescript
+npm install --save-dev ts-node
+npx hardhat test
+```
