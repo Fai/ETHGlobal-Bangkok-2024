@@ -57,7 +57,7 @@ Core Components
 
 We built our project using a combination of cutting-edge Web3 technologies and frameworks to create a seamless, decentralized education experience. Here's a breakdown of the tech stack and process:
 
-1. Smart Contracts (Solidity) - Implemented
+1. Smart Contracts (Solidity + Cairo) - Implemented
 * The backbone of our platform, deployed on the Ethereum or L2 network for scalability and low gas fees.
 * Smart contracts handle staking, prize pool management, deadlines, and reward distribution with complete transparency.
 
